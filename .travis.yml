@@ -8,3 +8,7 @@ env:
 
 script:
   - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project PoddyLib.xcodeproj -scheme PoddyLib -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
+
+after_success:
+  - slather
+  - bash <(curl -s https://codecov.io/bash) -t ee83ae0f-365a-4940-9fcd-8334825e0a3a -f reports/cobertura.xml -X coveragepy -X gcov -X xcode

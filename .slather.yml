@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: PoddyLib.xcodeproj
+scheme: PoddyLib
+output_directory: reports
+ignore:
+  - PoddyLibTests/*
