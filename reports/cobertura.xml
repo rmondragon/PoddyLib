@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="1.0000000000000000" branch-rate="1.0000000000000000" lines-covered="6" lines-valid="6" branches-covered="0" branches-valid="0" complexity="0.0" timestamp="1567629062" version="Slather 2.4.7">
+  <sources>
+    <source>/Users/rolando/Projects/2019/xcode/mypod/PoddyLib</source>
+  </sources>
+  <packages>
+    <package name="PoddyLib" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+      <classes>
+        <class name="PoddyLib" filename="PoddyLib/PoddyLib.swift" line-rate="1.0000000000000000" branch-rate="1.0000000000000000" complexity="0.0">
+          <methods/>
+          <lines>
+            <line number="13" branch="false" hits="1"/>
+            <line number="14" branch="false" hits="1"/>
+            <line number="15" branch="false" hits="1"/>
+            <line number="17" branch="false" hits="1"/>
+            <line number="18" branch="false" hits="1"/>
+            <line number="19" branch="false" hits="1"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
