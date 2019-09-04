@@ -1,3 +1,0 @@
-# PoddyLib
-
-soon...
