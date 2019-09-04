@@ -1,13 +1,18 @@
 # PoddyLib
 A CocoaPods library written in Swift
 
-## Commands
-```bash
-# after installing slater and update .slather.yml
-slather coverage -x --output-directory reports
-#slather coverage -s --scheme PoddyLib /Users/rolando/Projects/2019/xcode/mypod/PoddyLib/PoddyLib.xcodeproj
-# push report to codecov
-#curl -s https://codecov.io/bash -t ee83ae0f-365a-4940-9fcd-8334825e0a3a -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
-```
+## Coverage
+[![codecov](https://codecov.io/gh/rmondragon/PoddyLib/branch/master/graph/badge.svg)](https://codecov.io/gh/rmondragon/PoddyLib)
+[![Build Status](https://travis-ci.org/rmondragon/PoddyLib.svg?branch=master)](https://travis-ci.org/rmondragon/PoddyLib)
 
-***In https://travis-ci.org (yes, dot ORG) I keep gettting /Users/travis/.travis/functions: line 109: slather: command not found.***
+
+### Notes
+
+In https://travis-ci.org I keep gettting /Users/travis/.travis/functions: line 109: slather: command not found.
+
+A work around to push report from travis.org to codecov:
+```bash
+# after installing slater and update .slather.yml, run this to create the report
+slather coverage -x --output-directory reports
+# I have commit "reports" folder to make travis.org send it to codecov
+```
