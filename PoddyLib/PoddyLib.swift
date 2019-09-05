@@ -18,4 +18,6 @@ public final class PoddyLib {
     return a - b
   }
   
+  public init() {}
+
 }

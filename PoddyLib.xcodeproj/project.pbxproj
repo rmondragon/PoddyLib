@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A96010C12320980200CCA83F /* PoddyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D0CFE623202323001359B4 /* PoddyLib.framework */; };
 		A9D0CFF023202323001359B4 /* PoddyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D0CFE623202323001359B4 /* PoddyLib.framework */; };
 		A9D0CFF523202323001359B4 /* PoddyLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D0CFF423202323001359B4 /* PoddyLibTests.swift */; };
 		A9D0CFF723202323001359B4 /* PoddyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D0CFE923202323001359B4 /* PoddyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,12 +66,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96010C12320980200CCA83F /* PoddyLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A96010C02320980200CCA83F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A9D0CFDC23202323001359B4 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +87,7 @@
 				A9D0CFF323202323001359B4 /* PoddyLibTests */,
 				A9D0D00523202D41001359B4 /* PoddyLibExample */,
 				A9D0CFE723202323001359B4 /* Products */,
+				A96010C02320980200CCA83F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

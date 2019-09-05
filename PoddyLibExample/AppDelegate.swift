@@ -16,6 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
+    
+    // Remove Main Interface value from Targets PoddyLibExample > General > Deployment Info > Main Interface
+    
+    // Creates a UIWindow object with equivalent size as the iOS device’s screen (UIScreen)
+    self.window = UIWindow(frame:UIScreen.main.bounds)
+    // UIWindow object requires a rootViewController. As the document states below, nothing will be displayed if the rootViewController is unassigned.
+    self.window?.rootViewController = ViewController()
+    // makeKeyAndVisible() tells the window to show in the front-end.
+    self.window?.makeKeyAndVisible()
+    //
+
     return true
   }
 
